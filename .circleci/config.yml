@@ -15,8 +15,8 @@ jobs:
           name: Chef Version
           command: chef -v
       - run:
-          name: AWS Version
-          command: aws --version
+          name: Python Version
+          command: python --version
       - run:
           name: Packer Version
           command: packer -v
