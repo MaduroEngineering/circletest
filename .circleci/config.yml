@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.4.1
+      - image: 552172703831.dkr.ecr.us-west-2.amazonaws.com/infra-tools:latest
     steps:
       - checkout
       - run:
@@ -11,7 +11,5 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-      - run:
-          name: Run the Ruby script
-          command: ruby hello.rb
+
 
