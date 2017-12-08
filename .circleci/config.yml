@@ -15,8 +15,8 @@ jobs:
           name: Chef Version
           command: chef -v
       - run:
-          name: pip Version
-          command: pip --version
+          name: AWS Version
+          command: aws --version
       - run:
           name: Packer Version
           command: packer -v
@@ -26,4 +26,8 @@ jobs:
       - run:
           name: Terragrunt Version
           command: terragrunt -v
+      - run:
+          name: Complete
+          command: echo Complete!
+
 
