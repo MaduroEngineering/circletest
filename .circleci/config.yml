@@ -11,3 +11,7 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+      - run:
+          name: Run the Ruby script
+          command: ruby hello.rb
+
