@@ -29,5 +29,12 @@ jobs:
       - run:
           name: Complete
           command: echo Complete!
+      - run:
+          name: Which User
+          command: whoami
+      - run:
+          name: Show the Vars
+          command: env
+
 
 
