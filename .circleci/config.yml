@@ -30,10 +30,8 @@ jobs:
           name: Terragrunt Version
           command: terragrunt -v
       - run:
-          name: Complete
-          command: echo Complete!
-      - run:
-          name: Searching for ssh keys
-          command: ls -la /root/.ssh/
+          name: Envs Again
+          command: env
+
 
 
