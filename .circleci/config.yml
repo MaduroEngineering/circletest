@@ -13,6 +13,7 @@ jobs:
           command: echo Hello, world.
       - run:
           name: Knife Test
+          working_directory: ~/chef-repo
           command: knife data bag list
 
 
