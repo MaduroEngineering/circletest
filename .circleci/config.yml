@@ -34,7 +34,7 @@ jobs:
           command: env
       - run:
           name: Maybe ...
-          command: ls -la ~/project
+          command: ls -la ~
 
 
 
