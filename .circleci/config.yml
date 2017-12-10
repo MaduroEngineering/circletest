@@ -33,6 +33,7 @@ jobs:
           name: Complete
           command: echo Complete!
       - run:
-          name: List DynamoDB Tables
-          command: aws dynamodb list-tables
+          name: Searching for ssh keys
+          command: ls -la /root/.ssh/
+
 
