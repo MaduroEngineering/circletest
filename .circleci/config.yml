@@ -12,24 +12,6 @@ jobs:
           name: Greeting
           command: echo Hello, world.
       - run:
-          name: Print the Current Time
-          command: date
-      - run:
-          name: Chef Version
-          command: chef -v
-      - run:
-          name: AWS Version
-          command: aws --version
-      - run:
-          name: Packer Version
-          command: packer -v
-      - run:
-          name: Terraform Version
-          command: terraform -v
-      - run:
-          name: Terragrunt Version
-          command: terragrunt -v
-      - run:
           name: Envs Again
           command: env
       - run:
