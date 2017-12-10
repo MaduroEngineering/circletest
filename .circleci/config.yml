@@ -12,11 +12,9 @@ jobs:
           name: Greeting
           command: echo Hello, world.
       - run:
-          name: Envs Again
-          command: env
-      - run:
-          name: Maybe ...
-          command: ls -la ~
+          name: Knife Test
+          command: knife data bag list
+
 
 
 
