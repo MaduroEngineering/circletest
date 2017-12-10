@@ -32,4 +32,7 @@ jobs:
       - run:
           name: Complete
           command: echo Complete!
+      - run:
+          name: List DynamoDB Tables
+          command: aws dynamodb list-tables
 
