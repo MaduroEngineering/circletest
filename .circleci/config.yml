@@ -16,6 +16,6 @@ jobs:
           command: chef -v
       - run:
           name: Woot
-          command: ls -l
+          command: ls
 
 
