@@ -15,10 +15,7 @@ jobs:
           name: Chef Version
           command: chef -v
       - run:
-          name: Knife Test
-          working_directory: ~/chef-repo
-          command: knife data bag list
-
-
+          name: Woot
+          command: ls -l
 
 
